@@ -25,15 +25,15 @@ The script creates:
      access_key = "YOUR_ACCESS_KEY"
      secret_key = "YOUR_SECRET_KEY"
    }
-3. Replace "puppet" in the key_name fields with your EC2 key pair name
-4. Run terraform init to initialize Terraform
-5. Run terraform apply to create the infrastructure
+3. Replace `"puppet"` in the key_name fields with your EC2 key pair name
+4. Run ` terraform init ` to initialize Terraform
+5. Run ` terraform apply ` to create the infrastructure
 6. After creation, Terraform will output the instance IDs and public IPs
 
 ## Cleanup
 To remove all created resources:
-1. Run terraform destroy.
-2. Confirm by typing 'yes' when prompted
+1. Run ` terraform destroy `
+2. Confirm by typing ` yes ` when prompted
 
 ## Security Notes
 
