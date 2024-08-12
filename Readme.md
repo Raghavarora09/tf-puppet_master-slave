@@ -2,6 +2,11 @@
 
 This Terraform script sets up a Puppet Master and Slave configuration on AWS EC2 instances.
 
+## Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) installed
+- AWS account with appropriate permissions
+
 ## Overview
 
 The script creates:
