@@ -14,11 +14,6 @@ The script creates:
 2. A Puppet Master EC2 instance
 3. A Puppet Slave EC2 instance
 
-## Prerequisites
-
-- AWS account
-- Terraform installed
-- AWS CLI configured with your credentials
 
 ## Usage
 
