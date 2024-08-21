@@ -28,7 +28,7 @@ The script creates:
 3. Replace `"puppet"` in the key_name fields with your EC2 key pair name
 4. Run ` terraform init ` to initialize Terraform
 5. Run ` terraform apply ` to create the infrastructure
-6. After creation, Terraform will output the instance IDs and public IPs
+6. After creation, Terraform will output the instance IDs and private IPs
 
 ## Cleanup
 To remove all created resources:
